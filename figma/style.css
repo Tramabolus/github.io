@@ -1,0 +1,231 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.hero {
+    background: #EEEFF1;
+    min-height: 700px;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-family: Revalia;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #34547A;
+}
+
+.nav {
+    padding-top: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nero__items {
+    display: flex;
+    align-items: center;
+}
+
+.nero__item {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    color: #000000;
+    text-transform: uppercase;
+    margin-right: 42px;
+    text-decoration: none;
+}
+
+.nero__item:hover {
+    color: #5f5e5e;
+}
+
+.nero__item:last-child {
+    margin-right: 8px;
+}
+
+.nero__content {
+    padding-top: 140px;
+    display: flex;
+}
+
+.nero__left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nero__right {
+    width: 50%;
+}
+
+.nero__title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+    color: #000000;
+    padding-bottom: 30px;
+}
+
+.nero__text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.nero__btn {
+    margin-top: 60px;
+    background: #01368b;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    padding-top: 25px;
+    padding-right: 41px;
+    padding-bottom: 25px;
+    padding-left: 41px;
+    cursor: pointer;
+}
+
+.nero__btn:hover {
+    background: #6395e6;
+}
+
+.about__container {
+    width: 540px;
+    padding: 100px 0px 100px 0px;
+}
+
+.about__text {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+}
+
+.about__title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 50px;
+}
+
+.picture {
+    background: #415783;
+}
+
+.picture__container {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.picture__container__items .item .content {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding-left: 20px;
+}
+
+.picture__container__items .item .content .count {
+    font-weight: 500;
+}
+
+.picture__container__items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    display: flex;
+    padding-bottom: 50px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+.skills__container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    align-items: center;
+}
+
+.skills__list {
+    width: 47%;
+}
+
+.photo {
+    width: 47%;
+}
+
+.photo img {
+    width: 100%;
+}
+
+.skills__list__title {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+    padding-bottom: 30px;
+}
+
+.skill__list__item {
+    padding-top: 20px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    padding-bottom: 20px;
+    border-bottom: 4px solid #C4C4C4;
+    position: relative;
+}
+
+.skill__list__item::before {
+    position: absolute;
+    content: "";
+    bottom: -4px;
+    left: 0px;
+    height: 4px;
+    width: 75%;
+    background-color: #34547A;
+}
+
+.skills__list__items {
+    width: 85%;
+}
